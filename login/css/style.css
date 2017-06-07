@@ -1,0 +1,89 @@
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+	list-style:none;
+}
+body{
+	font: 300 16px Oswald;
+}
+
+#login{
+	width:300px;
+	margin:0 auto;
+	position:relative;
+	top:130px;
+}
+.logo{
+	width:250px;
+	height:86px;
+	margin:0 auto;
+	padding:7px;
+}
+#Cadastrar{
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:15px;
+	-webkit-border-bottom-left-radius:8px;
+	-webkit-border-bottom-right-radius:15px;
+	-moz-border-radius-bottomleft:8px;
+	-moz-border-radius-bottomright:15px;
+	height:40px;
+	weight:120px;
+	font:400 22px Oswald;
+	background: #f1f1f1;
+	text-align:center;
+	line-height:40px;
+	
+	color:#999;
+	
+}
+#login label{
+	display:block;
+	padding-top:5px;
+}
+.acomodar{
+	margin:0 auto;
+	width:250 px;
+}
+.txt{
+	border:none;
+	height:40px;
+	width:250px;
+	border:thin solid #6ecc06;
+}
+.txt:focus{
+	border:thin solid #6ecc06;
+	box-shadow: 0 2px 10px #6ecc06;
+	-webkit-box-shadow: 0 2px 10px #6ecc06;
+	-moz-box-shadow: 0 2px 10px #6ecc06;
+}
+.sb{
+	display:block;
+	border:none;
+	width:250px;
+	height:40px;
+	margin-top:10px;
+	font:400 18px Oswald;
+	color:#999;
+}
+.sb:hover{
+	background:#6ecc06;
+	color:#fff;
+/*Classes de Herança*/
+.bradius{
+	border-radius:6px;
+	-web-kit-border-radius:6px;
+	-moz-border-radius:6px;
+}
+.fleft{
+	float:left;
+}
+.fright{
+	float:right
+}
+/*Múltiplos estilos*/
+.txt, .txt:focus,.sb,.sb:hover{
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+}

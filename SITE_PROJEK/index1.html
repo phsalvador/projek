@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html>
+<head>
+<script language="JavaScript" type="text/javascript" src="js/cidades-estados-utf8.js"></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projek</title>
+<link rel="stylesheet" type="text/css" href="css/style_menu.css">
+</head>
+<body  bgcolor="#ecf0f1">
+	<header class="topo">
+   	  <h3 align="center"><img src="img/logo_projek_final_2017-Mobile.png" alt="Projek"></h3>
+</header>
+<div class="menu">
+<font face="Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif">
+  <ul>
+    	<li><a href="#">Negócios</a>
+        	<ul>
+            	<li><a href="#" target="_blank">Análise de Mercado(FORM)</a></li>
+                <li><a href="#" target="_blank">Oportunidade</a></li>
+                <li><a href="#" target="_blank">Prospecção</a>
+                	<ul>
+                    	<li><a href="https://gsuite.google.com.br/intl/pt-BR/products/calendar/" target="_blank">Google Agenda</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" target="_blank">Contrato</a></li>                	
+            </ul>
+        </li> 
+        <li><a href="#" target="_blank">Financeiro</a>
+        	<ul>
+            	<li><a href="https://contaazul.com/nova-home/" target="_blank">contaazul</a></li>
+        	</ul>        
+        </li> 	
+        <li><a href="#" target="_blank">Compra</a>
+        	<ul>
+            	<li><a href="#" target="_blank">Formulário de Liberação de Compra</a></li>
+        	</ul>        
+        </li>
+        <li><a href="#" target="_blank">Projetos</a>
+        	<ul>
+            	<li><a href="#" target="_blank"></a></li>
+        	</ul>
+        </li>
+</ul>
+<div class="nova"> 
+	<form>
+    <fieldset>
+    	Nome*:<input type="text" required>
+        <br>
+        <br>
+        E-mail*:<input type="text" required>
+        <br>
+        <br>
+        Telefone*:<input type="tel" required>
+        <br>
+        <br>
+        Estado*:<select id="estado1" required></select>
+      	Cidade*:<select id="cidade1" required></select>
+      <script language="JavaScript" type="text/javascript" charset="utf-8">
+        new dgCidadesEstados({
+          cidade: document.getElementById('cidade1'),
+          estado: document.getElementById('estado1')
+        })
+      </script>
+      <br>
+      <br>
+      	Ramo da Empresa*:<select required>
+        	<option value="">Selecione...</option>
+            <option value="">opção1</option>
+            <option value="">opção2</option>
+            <option value="">opção3</option>
+       </select>
+       <br>
+        <br>
+		Observações: <input type="textarea">
+        <br>
+        <br>
+        <input type="submit" value="Enviar" style="background-color: #2ecc71; color: #000000; border-style: double; border-width: 1">
+        <br>
+        <br>
+        <div class="volta">
+        	<li><a href="index.html">Voltar ao Inicio</a></li>
+        </div>
+</fieldset> 
+</form>      
+</div>
+</font>
+</div>
+</body>
+</html>
